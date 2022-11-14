@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<title>Generic Wasm MediaPipe TypeScript Demo</title>
+
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:900&display=swap" rel="stylesheet">
+  <link href="demo.css" rel="stylesheet">
+</head>
+
+<!-- Rest of webpage set-up -->
+<body>
+<div class="container abs" id="outer_container">
+  <?xml version="1.0" encoding="utf-8"?>
+  <video id="video" class="abs" playsinline loop>
+  </video>
+  <canvas id="output" width=1280 height=720></canvas>
+  <div id="message" class="abs" id="message">Initializing...</div>
+  <div id="credit" class="abs">Powered by MediaPipe</div>
+  <img id="logo" class="abs" src="logo.png" alt="" />
+  <div id="container" class="abs"></div>
+</div>
+</body>
+</html>
+
+<script src="bundle.js" type="text/javascript"></script>
